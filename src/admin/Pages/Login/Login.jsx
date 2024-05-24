@@ -14,7 +14,6 @@ const Login = () => {
         try {
             const result = await signInWithPopup(auth, googleProvider);
             console.log('User Info: ', result.user);
-
             // Redirect to /admin
             navigate('/admin');
         } catch (error) {
