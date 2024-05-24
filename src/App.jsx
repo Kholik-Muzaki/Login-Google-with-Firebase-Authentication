@@ -10,6 +10,7 @@ function App() {
          <Routes>
             {/* Login */}
             <Route path="/login" element={<Login />} />
+            <Route path="/" element={<Login />}/>
             {/* Admin */}
             <Route path="/admin" element={<Dashboard />} />
             <Route path="/admin/kelola-artikel" element={<KelolaArtikel />} />
